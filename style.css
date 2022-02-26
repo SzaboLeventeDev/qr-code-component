@@ -9,12 +9,12 @@
  }
  div, img{
      border-radius: 10px;
-     width: 24vw;
+     width: 400px;
      height: auto;
  }
  div{
      background-color: hsl(0, 0%, 100%);
-     padding: 1vh 1vw;
+     padding: 10px;
      margin-bottom: 1vh;
      text-align: center;
  }
@@ -27,4 +27,13 @@ p{
     color: hsl(220, 15%, 55%);
     font-weight: 400;
     font-size: 15px;
+}
+@media (max-width: 375px) {
+    div, img{
+        width: 80vw;
+        height: auto;
+    }
+    div{
+        padding: 10px;
+    }
 }
